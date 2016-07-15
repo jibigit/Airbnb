@@ -114,8 +114,58 @@ textarea {
 /* -------------------------  OPEN NAV ---------------------------------- */
 
 
+.navbar {
+    font-family: Helvetica,Arial,sans-serif;
+    }
+
+    .navbar-header {
+        color: white;
+    }
 
 
+
+  
+   #hote{
+       border:2px solid white;
+       margin-top: 8.5%;
+       padding-top: 3.5%;
+       padding-bottom: 3.5%;
+   }
+
+   #hote:hover {
+    opacity: 0.3;
+   }
+
+/* -------------------------------------- VIDEO FULL WIDTH ---------------------------------- */
+
+   .video-container {
+      position: relative;
+      bottom: 0%;
+      top: 0%;
+      left: 0%;
+      height: 85%;
+      width: 100%;
+      overflow: hidden;
+   }
+
+   
+
+   .video-container video {
+      position: absolute;
+      z-index: 0;
+      bottom: 0;
+      top: 0%;
+   }
+
+
+
+   video {
+       margin-bottom: 1.5%;
+   }
+
+   .videoFull{
+    width: 100%;
+   }
 
 
 
