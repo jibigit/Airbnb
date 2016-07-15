@@ -96,7 +96,22 @@ textarea {
    ========================================================================== */
 
 
+  body {
+       background-color: #EDEFED ;
+       font-family: Helvetica,Helvetica,Arial,sans-serif;
+   }
 
+ /*  -------------------------  HEADER ----------------------------------*/
+
+
+  
+  #logo {
+       margin-top: -2%;
+       margin-left: 2%;
+       width: 30%;
+   }
+
+/* -------------------------  OPEN NAV ---------------------------------- */
 
 
 
