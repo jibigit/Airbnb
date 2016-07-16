@@ -311,7 +311,8 @@ textarea {
 }
 
 .row {
-    margin-left:100px;
+    margin-left:80px;
+    width: 80%;
 
 }
 
@@ -330,6 +331,7 @@ footer {
     background-image: url("https://a1.muscache.com/airbnb/static/footer/background-7c73b7858fe7c4bc03505fc1f7f672fd.png");
     color: #fff;
     padding: 50px 0;
+    width: 100%;
     
 }
 footer li a {
@@ -351,19 +353,12 @@ font-weight: bold;
 /* MEDIA QUERIES */ 
 
 @media screen and (max-width: 839px) {
-       section {
-           display: none;
-       }
-       #image1 img{
-           margin-left: 7.5%;
-       }
+       
+      
        hr {
            display: none;
        }
-       .video-container video.fillWidth {
-      width: 150%;
-
-   }
+       
 
    }
 
@@ -382,10 +377,7 @@ font-weight: bold;
 
    }
 
-   .video-container video.fillWidth {
-      width: 150%;
-
-   }
+   
    }
 
 
