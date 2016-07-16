@@ -324,6 +324,29 @@ textarea {
   padding-bottom: 3%;
 }
 
+ /* ---------------------- FOOTER -------------*/
+footer {
+    background-color: #2b2d2e;
+    background-image: url("https://a1.muscache.com/airbnb/static/footer/background-7c73b7858fe7c4bc03505fc1f7f672fd.png");
+    color: #fff;
+    padding: 50px 0;
+    
+}
+footer li a {
+  text-decoration: none;
+}
+
+.language-selector {
+background-color: grey;
+}
+
+.currency-selector {
+background-color: grey;
+}
+
+.h5 {
+font-weight: bold;
+}
 
 
 
