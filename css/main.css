@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    
     font-size: 1em;
     line-height: 1.4;
 }
@@ -80,23 +80,9 @@ textarea {
     resize: vertical;
 }
 
-/* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
-
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 
 
-  body {
+   body {
        background-color: #EDEFED ;
        font-family: Helvetica,Helvetica,Arial,sans-serif;
    }
@@ -114,12 +100,11 @@ textarea {
 /* -------------------------  OPEN NAV ---------------------------------- */
 
 
-.navbar {
+    .navbar {
     font-family: Helvetica,Arial,sans-serif;
-    color: white;
     }
 
- .navbar-header {
+    .navbar-header {
         color: white;
     }
 
@@ -137,7 +122,9 @@ textarea {
     opacity: 0.3;
    }
 
-/* -------------------------------------- VIDEO FULL WIDTH ---------------------------------- */
+   
+
+  /* -------------------------------------- VIDEO FULL WIDTH ---------------------------------- */
 
    .video-container {
       position: relative;
@@ -166,10 +153,12 @@ textarea {
 
    .videoFull{
     width: 100%;
+    
    }
 
 
-   * --------------------------------  CONTENT -------------------------*/
+
+ /* --------------------------------  CONTENT -------------------------*/
 
    h1 {
        font-weight: bold;
@@ -266,7 +255,7 @@ textarea {
 }
 
 .container-accueil {
-  margin-right: 10%;
+  margin-right: 15%;
   padding-top: 3%;
 
 }
@@ -310,11 +299,6 @@ textarea {
     margin-bottom:20px;
 }
 
-.row {
-    margin-left:80px;
-    width: 80%;
-
-}
 
 .container-pics p {
     text-align: center;
@@ -323,15 +307,16 @@ textarea {
 .container-pics {
   padding-top: 3%;
   padding-bottom: 3%;
+ margin-right:10em;
 }
 
- /* ---------------------- FOOTER -------------*/
+/*///////////////////////FOOTER///////////////////////*/
+
 footer {
     background-color: #2b2d2e;
     background-image: url("https://a1.muscache.com/airbnb/static/footer/background-7c73b7858fe7c4bc03505fc1f7f672fd.png");
     color: #fff;
-    padding: 50px 0;
-    width: 100%;
+    padding: 2em 2em 2em 2em;
     
 }
 footer li a {
@@ -350,15 +335,24 @@ background-color: grey;
 font-weight: bold;
 }
 
-/* MEDIA QUERIES */ 
 
-@media screen and (max-width: 839px) {
-       
-      
+
+   /*///////////////////////MEDIA QUERIES///////////////////////*/
+
+   @media screen and (max-width: 839px) {
+       section {
+           display: none;
+       }
+       #image1 img{
+           margin-left: 7.5%;
+       }
        hr {
            display: none;
        }
-       
+       .video-container video.fillWidth {
+      width: 150%;
+
+   }
 
    }
 
@@ -377,8 +371,20 @@ font-weight: bold;
 
    }
 
-   
+   .video-container video.fillWidth {
+      width: 150%;
+
    }
+   }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -391,7 +397,7 @@ font-weight: bold;
    ========================================================================== */
 
 /*
- * Hide visually and from screen readers
+ * Hide visually and from screen readers:
  */
 
 .hidden {
@@ -486,9 +492,7 @@ font-weight: bold;
 @media print {
     *,
     *:before,
-    *:after,
-    *:first-letter,
-    *:first-line {
+    *:after {
         background: transparent !important;
         color: #000 !important; /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
