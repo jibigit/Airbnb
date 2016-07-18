@@ -304,10 +304,19 @@ textarea {
     text-align: center;
     color:grey;
 }
+.container-pics h2 {
+    text-align: center;
+   
+}
 .container-pics {
   padding-top: 3%;
   padding-bottom: 3%;
- margin-right:10em;
+  margin-right:2em;
+  padding-left: 2em;
+}
+
+.container-pics .btn {
+  margin-left: 50%;
 }
 
 /*///////////////////////FOOTER///////////////////////*/
